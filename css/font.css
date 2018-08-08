@@ -1,0 +1,24 @@
+@font-face {
+  font-family: MDL2;
+  src: url('./FullMDL2.ttf');
+}
+.MDL2-glyphs {
+  font-family: 'MDL2';
+}
+
+/*
+Add new icons like this, where <class> is the
+name you will use to refer to the icon in HTML:
+
+  .MDL2-glyphs.<class>:before {
+    content: "\<glyph code>"
+  }
+
+And then use them like this:
+
+  <span class="MDL2-glyphs <class>"></span>
+*/
+
+.MDL2-glyphs.search:before {
+  content: "\E721"
+}
