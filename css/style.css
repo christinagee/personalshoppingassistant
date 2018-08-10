@@ -658,8 +658,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #0078D4;
-  color: #0078D4;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 
@@ -668,6 +668,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   background: #0078D4;
 }
+
+
 
 
 /* Product Advanced Featuress Section
@@ -753,8 +755,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #0078D4;
-  color: #0078D4;
+  background: #0078D4;
+  color: #fff;
 }
 
 
@@ -763,6 +765,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   background: #0078D4;
 }
+
+
 
 /* Call To Action Section
 --------------------------------*/
