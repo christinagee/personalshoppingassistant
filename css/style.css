@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started {
-  ont-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 1px;
@@ -647,6 +647,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
+
+#features .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline;
+  padding: 8px 28px 10px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #0078D4;
+  color: #0078D4;
+}
+
+
+
+#features .btn-get-started:hover {
+  color: #fff;
+  background: #0078D4;
+}
+
+
 /* Product Advanced Featuress Section
 --------------------------------*/
 #advanced-features {
@@ -718,6 +741,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     float: none;
     padding: 0 0 30px 0;
   }
+}
+
+#advanced-features .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline;
+  padding: 8px 28px 10px 28px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #0078D4;
+  color: #0078D4;
+}
+
+
+
+#advanced-features .btn-get-started:hover {
+  color: #fff;
+  background: #0078D4;
 }
 
 /* Call To Action Section
