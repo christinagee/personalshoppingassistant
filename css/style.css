@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 150vh;
-  background: white; center top no-repeat;
+  background: white center top no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
-#features .icon i {
+#features .icon i, #features .icon span {
   color: #666666;
   font-size: 40px;
   transition: 0.5s;
