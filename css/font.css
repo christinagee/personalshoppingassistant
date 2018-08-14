@@ -22,3 +22,15 @@ And then use them like this:
 .MDL2-glyphs.search:before {
   content: "\E721"
 }
+.MDL2-glyphs.tag:before {
+  content: '\E8EC';
+}
+.MDL2-glyphs.price-drop:before {
+  content: '\EF42';
+}
+.MDL2-glyphs.phone:before {
+  content: '\E8EA';
+}
+.MDL2-glyphs.tabs:before {
+  content: '\E7E9';
+}

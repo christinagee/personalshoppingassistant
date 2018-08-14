@@ -615,7 +615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i, #features .icon span {
   color: #666666;
-  font-size: 40px;
+  font-size: 35px;
   transition: 0.5s;
 }
 
@@ -702,7 +702,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#advanced-features i {
+#advanced-features i, #advanced-features span {
   color: #666666;
   font-size: 64px;
   transition: 0.5s;
@@ -711,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
 }
 
-#advanced-features i:before {
+#advanced-features i:before, #advanced-features span:before {
   background: #2576BB;
   background: linear-gradient(45deg, #2576BB 0%, #0277bd 100%);
   background-clip: border-box;
