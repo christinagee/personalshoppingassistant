@@ -198,13 +198,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #0078D4;
 }
 
-
-
 #intro .btn-get-started:hover {
   color: #fff;
   background: #0078D4;
 }
 
+#intro .btn-get-started.featured {
+  background: #0078D4;
+  color: #fff;
+}
+
+#intro .btn-get-started.featured:hover {
+  background: #448aff;
+}
+
+#intro .images-with-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#intro .image-with-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#intro .image-with-button img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
 
 #intro .product-screens {
   position: absolute;
