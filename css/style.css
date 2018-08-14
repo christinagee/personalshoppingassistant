@@ -123,24 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 150vh;
   background: white center top no-repeat;
   background-size: cover;
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  #intro {
-    background-attachment: fixed;
-  }
 }
 
 #intro .intro-text {
-  position: absolute;
-  left: 0;
-  top: 60px;
-  right: 0;
-  height: calc(50% - 60px);
+  margin-top: 60px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -203,18 +191,32 @@ h1, h2, h3, h4, h5, h6 {
   background: #0078D4;
 }
 
-#intro .btn-get-started.featured {
+#intro .side-by-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+#intro #featured_browser {
+  margin: 30px;
+}
+
+#intro #featured_browser img {
+  width: 128px;
+  height: 128px;
+}
+
+#intro #featured_browser .btn-get-started {
   background: #0078D4;
   color: #fff;
+  font-size: 20px;
 }
 
-#intro .btn-get-started.featured:hover {
+#intro #featured_browser .btn-get-started:hover {
   background: #448aff;
-}
-
-#intro .images-with-buttons {
-  display: flex;
-  justify-content: center;
 }
 
 #intro .image-with-button {

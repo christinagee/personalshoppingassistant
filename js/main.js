@@ -126,6 +126,43 @@ jQuery(document).ready(function($) {
     }
   });
 
-  // custom code
+  function promoteButton(browser) {
+    //$("#featured_browser").append($(browser.button));
+    $("#featured_browser img").attr('src', browser.img);
+    $("#featured_browser .btn-get-started").text(browser.text);
+  }
 
+  // custom code
+  var browsers = [
+    {
+      flag: "chrome",
+      button: "#install_chrome",
+      img: "img/chromelogo.png",
+      text: "Add to Chrome"
+    },
+    {
+      flag: "msedge",
+      button: "#install_edge",
+      img: "img/edgelogo.png",
+      text: "Add to Edge"
+    },
+    {
+      flag: "firefox",
+      button: "#install_firefox",
+      img: "img/firefoxlogo.png",
+      text: "Add to Firefox"
+    },
+    {
+      flag: "opera",
+      button: "#install_opera",
+      img: "img/operalogo.png",
+      text: "Add to Opera"
+    },
+  ];
+  for (var i = 0; i < browsers.length; i++) {
+    if (bowser[browsers[i].flag]) {
+      promoteButton(browsers[i]);
+      break;
+    }
+  }
 });
