@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Segoe UI Fallback';
+  src: url('/segoeui.ttf') format("truetype");
+}
+
+@font-face {
   font-family: MDL2;
   src: url('./FullMDL2.ttf');
 }
