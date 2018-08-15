@@ -728,7 +728,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#advanced-features i, #advanced-features span {
+#advanced-features p.asterisk {
+  font-style: italic;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#advanced-features span {
   color: #666666;
   font-size: 64px;
   transition: 0.5s;
@@ -737,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
 }
 
-#advanced-features i:before, #advanced-features span:before {
+#advanced-features span:before {
   background: #2576BB;
   background: linear-gradient(45deg, #2576BB 0%, #0277bd 100%);
   background-clip: border-box;
@@ -1013,11 +1019,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style: none;
 }
 
-#faq #faq-list li {
+#faq #faq-list > li {
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list > li > a {
   padding: 18px 0;
   display: block;
   position: relative;
@@ -1296,7 +1302,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-logo {
-  height: 64px;
+  height: 48px;
 }
 
 #footer .footer-links a {
