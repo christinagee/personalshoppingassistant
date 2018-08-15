@@ -127,9 +127,13 @@ jQuery(document).ready(function($) {
   });
 
   function promoteButton(browser) {
-    //$("#featured_browser").append($(browser.button));
     $("#featured_browser img").attr('src', browser.img);
     $("#featured_browser .btn-get-started").text(browser.text);
+  }
+
+  function showOtherBrowserMessage() {
+    $("#featured_browser").empty();
+    $("#featured_browser").text("Personal Shopping Assistant is available on Chrome, Firefox, Edge, and Opera. Please visit again from one of our supported browsers.");
   }
 
   // custom code
@@ -159,10 +163,15 @@ jQuery(document).ready(function($) {
       text: "Add to Opera"
     },
   ];
+  var browserDetected = false;
   for (var i = 0; i < browsers.length; i++) {
     if (bowser[browsers[i].flag]) {
       promoteButton(browsers[i]);
+      browserDetected = true;
       break;
     }
+  }
+  if (!browserDetected) {
+    showOtherBrowserMessage();
   }
 });
